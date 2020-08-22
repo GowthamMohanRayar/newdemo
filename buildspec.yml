@@ -11,7 +11,7 @@ phases:
  post_build:
   commands:
   - echo "Entere build phase"
-  - mv target ./
+#  - mv target ./
 artifacts:
  files:
   - target/**/*
