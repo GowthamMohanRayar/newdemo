@@ -13,5 +13,5 @@ phases:
   - echo "Entere build phase"
 #  - mv target ./
 artifacts:
- files:
-  - target/**/*
+ paths:
+  - target/*.jar
