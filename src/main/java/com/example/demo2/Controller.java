@@ -21,6 +21,11 @@ public class Controller {
 		return "saysHello";
 	}
 	
+	@GetMapping("/malamalamalemale")
+	public String malamalamalemale() {
+		return "malamalamalemale";
+	}
+	
 	
 
 }
