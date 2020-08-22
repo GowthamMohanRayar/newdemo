@@ -16,6 +16,11 @@ public class Controller {
 		return "hello";
 	}
 	
+	@GetMapping("/says")
+	public String saysHello() {
+		return "saysHello";
+	}
+	
 	
 
 }
